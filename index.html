@@ -24,8 +24,8 @@
         <p class="nav-title">Klub Podróżników "Route 66"</p>
         <ul class="nav-bar">
           <li><a href="#specialists">o nas</a></li>
-          <li><a href="#offert">oferta</a></li>
-          <li class="cursor disabled">kontakt</li>
+          <li><a href="#offer">oferta</a></li>
+          <li class="cursor-disabled">kontakt</li>
         </ul>
       </div>
     </nav>
@@ -36,7 +36,9 @@
             Nasza firma organizuje wyprawy po zachodnich stanach USA.
           </p>
           <p>Przeżyj niezapomnianą przygodę!</p>
-          <button><a href="#offer">oferta</a></button>
+          <a href="#offer">
+            <button class="button">oferta</button>
+          </a>
         </div>
       </div>
     </section>
@@ -58,8 +60,8 @@
         </div>
         <div class="wrapper">
           <div class="wrapper-text">
-            <p class="name">Marek Zieliński</p>
-            <p class="specialist">
+            <p class="name marek">Marek Zieliński</p>
+            <p class="specialist marek">
               Zapalony podróżnik, przemierzył Amerykę wzdłuż i wszerz, za każdym
               razem odkrywając nowe, ciekawe miejsca. Najbardziej kocha długie
               wędrówki z plecakiem, by docierać do kolejnych, nieznanych
@@ -76,7 +78,8 @@
         <p class="offer-title">Jakie miejsca odwiedzisz podczas wycieczki?</p>
         <div class="box-container">
           <div class="boxes" id="box1">
-            <div class="offer-box-shadow">
+            <div class="offer-box-shadow first-box">
+              <div class="dot"></div>
               <p>Park Narodowy Joshua</p>
               <span>(nowość)</span>
             </div>
@@ -104,10 +107,12 @@
       </div>
     </section>
     <footer>
-      <div class="container">
+      <div class="container footer-container">
         <p>Klub Podróżników "Route 66" - wszelkie prawa zastrzeżone, 2018</p>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook-square"></i>
+        <div class="wrapper-icons">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook-square"></i>
+        </div>
       </div>
     </footer>
   </body>
